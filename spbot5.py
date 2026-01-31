@@ -784,7 +784,7 @@ PLO_USERNAME, PLO_PASSWORD = range(2)
 SLOG_SESSION, SLOG_USERNAME = range(2)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("Welcome to Firedrop_69's spam bot ⚡ type /help to see available commands")
+    await update.message.reply_text("Welcome to Sammy_here01's spam bot ⚡ type /help to see available commands")
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_id = update.effective_user.id
